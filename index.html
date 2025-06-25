@@ -72,3 +72,22 @@ git push -u origin main
 </body>
 </html>
 <a href="mailto:keelan.bartkowiak2013@gmail.com" style="display:inline-block; padding:10px 20px; background-color:#48c9b0; color:white; text-decoration:none; border-radius:8px; margin-top:20px;">📧 Email Me!</a>
+li {
+  transition: transform 0.2s;
+}
+li:hover {
+  transform: scale(1.05);
+  color: #d35400;
+}
+<h1 class="shimmer">🎨 Keelan’s Creative Corner 💻</h1>
+.shimmer {
+  background: linear-gradient(to right, #ffeaa7 20%, #fab1a0 40%, #ffeaa7 60%);
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: shimmer 2s infinite linear;
+  background-size: 200% auto;
+}
+@keyframes shimmer {
+  0% { background-position: 200% center; }
+  100% { background-position: -200% center; }
+}
